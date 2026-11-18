@@ -13,6 +13,7 @@ import { test, expect } from '../../fixtures/pageFixtures';
 import { RandomDataUtil } from '../../utils/dataGenerator';
 import { Helper } from '../../utils/helper';
 
+console.log("hello Shriya")
 test('End-to-end shopping flow @master @sanity @regression @web @end-to-end', async ({
     pageErrors,
     homePage,
